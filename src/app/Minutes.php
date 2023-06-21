@@ -18,7 +18,7 @@ class Minutes
 
     public function toSeconds(): Seconds
     {
-        $seconds = $this->minutes * 60;
+        $seconds = $this->minutes * 3600;
         return new Seconds($seconds);
     }
 }
